@@ -4,6 +4,7 @@ Guidelines for writing my custom handscript. Unless otherwise specified, stick t
 
 Constraints:
 - All modifications should be able to orthographically reconstruct the original english word.
+    - This does not apply to whole common-word replacements (e.g. and -> ⁊); those may be arbitrary signs learned by memory, same as historical shorthand grammalogues.
 
 ## Morphemes
 - 'th' is replaced with þ in all places
@@ -32,8 +33,10 @@ Conjunctions:
 - at: â
 - to: ô
 
+Verb "to be":
+- am: m
+- are: ꝛ (rotunda r)
+- is: s
+
 TODO
-- am
-- are
-- is
 - not, 'nt
