@@ -30,10 +30,10 @@ Conjunctions:
 - in: ĩ
 - on: õ
 - at: â
+- to: ô
 
 TODO
 - am
 - are
 - is
 - not, 'nt
-- to
