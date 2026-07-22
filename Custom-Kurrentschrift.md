@@ -41,4 +41,4 @@ Verb "to be":
 Negation:
 - not, 'nt: macron over the n (borrowed from the medieval Latin abbreviation n̄ for "non")
     - standalone "not": n̄. ex: not now -> n̄ now
-    - as the "-n't" suffix: macron goes over the final letter of the contracted verb instead of spelling out n't. ex: can't -> cān̄, don't -> dōn̄, isn't -> sn̄
+    - as the "-n't" suffix: the n̄ sign is just appended to the full stem, no letters merged or dropped. ex: can't -> cann̄, don't -> don̄, isn't -> isn̄
