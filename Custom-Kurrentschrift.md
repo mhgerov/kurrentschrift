@@ -42,3 +42,7 @@ Negation:
 - not, 'nt: macron over the n (borrowed from the medieval Latin abbreviation n̄ for "non")
     - standalone "not": n̄. ex: not now -> n̄ now
     - as the "-n't" suffix: the n̄ sign is just appended to the full stem, no letters merged or dropped. ex: can't -> cann̄, don't -> don̄, isn't -> isn̄
+
+TODO
+- gh: bring back yogh (ȝ) for the historical /x/ sound now spelled "gh". ex: night -> niȝt, though -> þoȝ, right -> riȝt
+- consonant doubling that only marks a short preceding vowel (rather than a real doubled sound): drop the doubled letter and mark the vowel instead. ex: hopping vs hoping, latter vs later, dinner vs diner, written vs writen
