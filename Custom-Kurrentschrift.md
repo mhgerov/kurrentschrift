@@ -38,5 +38,7 @@ Verb "to be":
 - are: ꝛ (rotunda r)
 - is: s
 
-TODO
-- not, 'nt
+Negation:
+- not, 'nt: macron over the n (borrowed from the medieval Latin abbreviation n̄ for "non")
+    - standalone "not": n̄. ex: not now -> n̄ now
+    - as the "-n't" suffix: macron goes over the final letter of the contracted verb instead of spelling out n't. ex: can't -> cān̄, don't -> dōn̄, isn't -> sn̄
