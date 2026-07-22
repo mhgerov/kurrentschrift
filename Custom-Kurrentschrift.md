@@ -1,0 +1,39 @@
+# Custom Kurrentschrift
+
+Guidelines for writing my custom handscript. Unless otherwise specified, stick to the normal kurrent handscript guidelines.
+
+Constraints:
+- All modifications should be able to orthographically reconstruct the original english word.
+
+## Morphemes
+- 'th' is replaced with þ in all places
+- 'ing' suffix is replaced by ŋ. ex: running -> runŋ
+- 'er' suffix is replaced by ꝛ. ex: meter -> metꝛ
+- -ed suffix is just d. ex: printed -> printd
+- silent ending e
+    - a silent ending e that modifies the pronunciation of the proceding vowel just has an umlaut over the preceding vowel instead. ex: case -> cäs.
+    - if it does not modify the preceding vowel, the ending consonant gets a cedilla. ex: fence fenç, throttle -> throttļ
+        - one exception is s. It gets an ß instead. ex: defense -> defenß
+
+## Common Words
+
+Generally going with tildes representing 'n', circumflex representing 't'.
+
+Articles:
+- the: þ̈
+- an: ã
+
+Conjunctions:
+- and: Tironian et ⁊
+- or: o + rotunda r oꝛ
+
+- in: ĩ
+- on: õ
+- at: â
+
+TODO
+- am
+- are
+- is
+- not, 'nt
+- to
