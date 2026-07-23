@@ -7,11 +7,13 @@ Constraints:
     - This does not apply to whole common-word replacements (e.g. and -> ⁊); those may be arbitrary signs learned by memory, same as historical shorthand grammalogues.
 
 ## Morphemes
-- 'th' is replaced with þ in all places
+- 'th' splits by voicing, following the modern Icelandic convention (Old English used þ and ð fairly interchangeably, but Icelandic today keeps them phonemically distinct the same way):
+    - voiceless /θ/ is replaced with þ (thorn). ex: think -> þink, three -> þree, math -> maþ, thin -> þin
+    - voiced /ð/ is replaced with ð (eth). ex: this -> ðis, father -> faðꝛ, though -> ðoȝ
 - 'ing' suffix is replaced by ŋ. ex: running -> runŋ
 - 'er' suffix is replaced by ꝛ. ex: meter -> metꝛ
 - -ed suffix is just d. ex: printed -> printd
-- 'gh' (the historical /x/ sound) is replaced with yogh (ȝ), except word-initially. ex: night -> niȝt, though -> þoȝ, right -> riȝt, daughter -> dauȝtꝛ, burgh -> burȝ
+- 'gh' (the historical /x/ sound) is replaced with yogh (ȝ), except word-initially. ex: night -> niȝt, though -> ðoȝ, right -> riȝt, daughter -> dauȝtꝛ, burgh -> burȝ
     - word-initial "gh" (ghost, ghastly, aghast, gherkin, ghetto) is a separate, unrelated origin — a silent h inserted after g by early printers under Flemish/Dutch spelling influence, representing a plain /g/ sound, not the old fricative. It stays as gh. ex: ghost -> ghost, aghast -> aghast
 - silent ending e
     - a silent ending e that modifies the pronunciation of the proceding vowel just has an umlaut over the preceding vowel instead. ex: case -> cäs.
@@ -20,12 +22,23 @@ Constraints:
 - consonant doubling that only marks a short preceding vowel (rather than a real doubled sound): drop the doubled letter and mark the preceding vowel with a breve below (inverted breve, ˕) instead. ex: hopping -> ho̯pŋ, latter -> la̯tꝛ, dinner -> di̯nꝛ, written -> wri̯ten
     - placed below rather than above so it doesn't collide with the line already used over u to distinguish it from n. ex: supper -> su̯pꝛ vs super -> süpꝛ
 
+## Letterforms
+- 'w' is replaced with wynn (Ƿ/ƿ) in all places. ex: with -> ƿið, written -> ƿri̯ten (composes with the other rules as usual)
+    - this collided with two existing Kurrent letterforms, so those had to be modified to stay distinct:
+        - capital P (which wynn's capital form otherwise resembles) is now written like capital R minus the tail, so it's no longer confusable with capital wynn.
+        - lowercase k had its curve start from the middle of the stroke instead of the top, since starting from the top made it read too much like lowercase wynn.
+
+## Prefixes
+- 'con-' is replaced with ꝯ (the medieval scribal abbreviation mark for con-/contra-, one of the oldest abbreviation signs, going back to Tironian notes). ex: contract -> ꝯtract, consider -> ꝯsider, control -> ꝯtrol
+    - 'com-' uses the same mark with a stroke across the stem (ꝯ̶ — no precomposed Unicode form, just the con-mark plus a combining stroke overlay), matching the same family of stroke-modified letters as ꝑ (per-) and ꝓ (pro-): the stem itself is what changes to signal the nasal shift from n to m, since com- is just the labial-assimilated spelling of the same underlying prefix before b/p/m. ex: combine -> ꝯ̶bine, complete -> ꝯ̶plete, common -> ꝯ̶mon
+    - cum- doesn't show up often enough in English to be worth its own treatment; if it comes up, fold it under the com- form.
+
 ## Common Words
 
 Generally going with tildes representing 'n', circumflex representing 't'.
 
 Articles:
-- the: þ̈
+- the: ð̈ (voiced th, per the eth/thorn split above)
 - an: ã
 
 Conjunctions:
