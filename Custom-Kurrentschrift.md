@@ -10,16 +10,12 @@ Constraints:
 - 'th' splits by voicing, following the modern Icelandic convention (Old English used þ and ð fairly interchangeably, but Icelandic today keeps them phonemically distinct the same way):
     - voiceless /θ/ is replaced with þ (thorn). ex: think -> þink, three -> þree, math -> maþ, thin -> þin
     - voiced /ð/ is replaced with ð (eth). ex: this -> ðis, father -> faðꝛ, though -> ðoȝ
-- 'ing' suffix is replaced by ŋ. ex: running -> runŋ
-- 'er' suffix is replaced by ꝛ. ex: meter -> metꝛ
-- 'or' suffix is replaced by ꝝ (r rotunda with a stroke across the stem — precomposed Unicode, U+A75D). Historically this was the medieval sign for -rum/-orum/-arum, so it's a real r-rotunda-family mark rather than an invented one; using it for -or keeps the same "stroke = marked variant within the family" logic as con-/com- and per-/pro- below, with plain ꝛ as the more common default (-er) and struck ꝝ as the less common one (-or). ex: motor -> motꝝ, doctor -> doctꝝ
-- -ed suffix is just d. ex: printed -> printd
 - 'gh' (the historical /x/ sound) is replaced with yogh (ȝ), except word-initially. ex: night -> niȝt, though -> ðoȝ, right -> riȝt, daughter -> dauȝtꝛ, burgh -> burȝ
     - word-initial "gh" (ghost, ghastly, aghast, gherkin, ghetto) is a separate, unrelated origin — a silent h inserted after g by early printers under Flemish/Dutch spelling influence, representing a plain /g/ sound, not the old fricative. It stays as gh. ex: ghost -> ghost, aghast -> aghast
 - silent ending e
     - a silent ending e that modifies the pronunciation of the proceding vowel just has an umlaut over the preceding vowel instead. ex: case -> cäs.
     - if it does not modify the preceding vowel, the ending consonant gets a cedilla. ex: fence -> fenç, throttle -> throttļ
-    - c and g also take this same mark whenever they're directly followed by the silent e, regardless of whether the vowel further back is separately modified — they're the two letters with a real hard/soft alternation in English (c: /k/ vs /s/, g: /ɡ/ vs /dʒ/), so the mark can stack with the umlaut rule above rather than replace it. Which shape it takes depends on the letter, not the word: c has no descender, so it keeps the plain cedilla (ç); g has a descender that a cedilla collides with, so it takes a hook above instead (◌̉, combining hook above — no precomposed Unicode form for g, same situation as the com- stroke overlay below). ex: range -> räng̉ (umlaut + hook, stacked), face -> fäç (umlaut + cedilla, stacked), hinge -> hing̉ (hook alone, vowel unaffected)
+    - c and g also take this same mark whenever they're directly followed by the silent e, regardless of whether the vowel further back is separately modified — they're the two letters with a real hard/soft alternation in English (c: /k/ vs /s/, g: /ɡ/ vs /dʒ/), so the mark can stack with the umlaut rule above rather than replace it. Which shape it takes depends on the letter, not the word: c has no descender, so it keeps the plain cedilla (ç); g has a descender that a cedilla collides with, so it takes a hook above instead (◌̉, combining hook above — no precomposed Unicode form for g, same situation as the com- stroke overlay in Prefixes). ex: range -> räng̉ (umlaut + hook, stacked), face -> fäç (umlaut + cedilla, stacked), hinge -> hing̉ (hook alone, vowel unaffected)
         - same shape logic (cedilla for a letter with no descender, hook above for one with a descender) carries over to any other letter that ends up needing this mark.
 - consonant doubling that only marks a short preceding vowel (rather than a real doubled sound): drop the doubled letter and mark the preceding vowel with a breve below (inverted breve, ˕) instead. ex: hopping -> ho̯pŋ, latter -> la̯tꝛ, dinner -> di̯nꝛ, written -> wri̯ten
     - placed below rather than above so it doesn't collide with the line already used over u to distinguish it from n. ex: supper -> su̯pꝛ vs super -> süpꝛ
@@ -34,6 +30,12 @@ Constraints:
 - 'con-' is replaced with ꝯ (the medieval scribal abbreviation mark for con-/contra-, one of the oldest abbreviation signs, going back to Tironian notes). ex: contract -> ꝯtract, consider -> ꝯsider, control -> ꝯtrol
     - 'com-' uses the same mark with a stroke across the stem (ꝯ̶ — no precomposed Unicode form, just the con-mark plus a combining stroke overlay), matching the same family of stroke-modified letters as ꝑ (per-) and ꝓ (pro-): the stem itself is what changes to signal the nasal shift from n to m, since com- is just the labial-assimilated spelling of the same underlying prefix before b/p/m. ex: combine -> ꝯ̶bine, complete -> ꝯ̶plete, common -> ꝯ̶mon
     - cum- doesn't show up often enough in English to be worth its own treatment; if it comes up, fold it under the com- form.
+
+## Suffixes
+- 'ing' suffix is replaced by ŋ. ex: running -> runŋ
+- 'er' suffix is replaced by ꝛ. ex: meter -> metꝛ
+- 'or' suffix is replaced by ꝝ (r rotunda with a stroke across the stem — precomposed Unicode, U+A75D). Historically this was the medieval sign for -rum/-orum/-arum, so it's a real r-rotunda-family mark rather than an invented one; using it for -or keeps the same "stroke = marked variant within the family" logic as con-/com- and per-/pro- in Prefixes, with plain ꝛ as the more common default (-er) and struck ꝝ as the less common one (-or). ex: motor -> motꝝ, doctor -> doctꝝ
+- -ed suffix is just d. ex: printed -> printd
 
 ## Common Words
 
