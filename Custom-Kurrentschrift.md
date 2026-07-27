@@ -36,13 +36,15 @@ Constraints:
 - 'er' suffix is replaced by ꝛ. ex: meter -> metꝛ
 - 'or' suffix is replaced by ꝝ (r rotunda with a stroke across the stem — precomposed Unicode, U+A75D). Historically this was the medieval sign for -rum/-orum/-arum, so it's a real r-rotunda-family mark rather than an invented one; using it for -or keeps the same "stroke = marked variant within the family" logic as con-/com- and per-/pro- in Prefixes, with plain ꝛ as the more common default (-er) and struck ꝝ as the less common one (-or). ex: motor -> motꝝ, doctor -> doctꝝ
 - -ed suffix is just d. ex: printed -> printd
+- '-tion' suffix is abbreviated to ꝷ (U+A777). ex: nation -> naꝷ
+- other '-ion' suffixes are abbreviated to ꝸ (U+A778). ex: version -> versꝸ
 
 ## Common Words
 
 Generally going with tildes representing 'n', circumflex representing 't'.
 
 Articles:
-- the: ð̈ (voiced th, per the eth/thorn split above)
+- the: ð (voiced th, per the eth/thorn split above)
 - an: ã
 
 Conjunctions:
