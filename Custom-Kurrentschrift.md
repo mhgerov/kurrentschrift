@@ -28,9 +28,7 @@ A two-letter vowel digraph is written as its first letter carrying a diacritic t
 - second letter o -> ring above ( ◌̊ ). ex: moon -> mo̊n, book -> bo̊k
 - second letter u -> breve above ( ◌̆ ). ex: soup -> sŏp, feud -> fĕd, sauce -> săç (sauce's final c is soft, so it also takes the silent-e cedilla)
 - second letter y -> grave ( ◌̀ ). ex: day -> dà, joy -> jò, key -> kè
-- The umlaut (second-letter e) is the same "dropped e" mark used elsewhere: an umlaut always means "a dropped e sat here" — on a vowel it's the second half of a digraph; on a final v/u it's the propping silent e of silent-e case 3 in Morphemes.
 - Only a/e/i/o/u/y second letters are covered; a digraph is any of these following the first vowel. Second letters with their own diacritic collisions to be aware of:
-    - caret reuses the shape of the common-word circumflex (â = "at", ô = "to"). No real clash: the common-word signs stand alone as whole words, while a caret inside a longer word is the digraph-a mark.
     - the base letter keeps any mark it already carries; on a u base the inherent u/n distinguishing line simply sits under the added digraph diacritic.
 
 ## Letterforms
@@ -42,7 +40,6 @@ A two-letter vowel digraph is written as its first letter carrying a diacritic t
 ## Prefixes
 - 'con-' is replaced with ꝯ (the medieval scribal abbreviation mark for con-/contra-, one of the oldest abbreviation signs, going back to Tironian notes). ex: contract -> ꝯtract, consider -> ꝯsider, control -> ꝯtrol
     - 'com-' uses the same mark with a stroke across the stem (ꝯ̶ — no precomposed Unicode form, just the con-mark plus a combining stroke overlay), matching the same family of stroke-modified letters as ꝑ (per-) and ꝓ (pro-): the stem itself is what changes to signal the nasal shift from n to m, since com- is just the labial-assimilated spelling of the same underlying prefix before b/p/m. ex: combine -> ꝯ̶bine, complete -> ꝯ̶plete, common -> ꝯ̶mon
-    - cum- doesn't show up often enough in English to be worth its own treatment; if it comes up, fold it under the com- form.
 
 ## Suffixes
 - 'ing' suffix is replaced by ŋ. ex: running -> runŋ
@@ -53,8 +50,6 @@ A two-letter vowel digraph is written as its first letter carrying a diacritic t
 - other '-ion' suffixes are abbreviated to ꝸ (U+A778). ex: version -> versꝸ
 
 ## Common Words
-
-Generally going with tildes representing 'n', circumflex representing 't'.
 
 Articles:
 - the: ð (voiced th, per the eth/thorn split above)
@@ -67,7 +62,7 @@ Conjunctions:
 Prepositions:
 - in: ĩ
 - on: õ
-- at: â TODO
+- at: @ (commercial at-sign — historically a scribal ligature of 'ad', a flourished a merging with the ascender of d; same logic as reusing Tironian et for and)
 - to: t
 
 Pronouns:
@@ -79,8 +74,8 @@ Verb "to be":
 - is: s
 
 Negation:
-- not, 'nt : TODO
-- no: TODO
+- not, 'nt: ꞥ (n with oblique stroke, U+A7A4/U+A7A5 — the stroke reads as the mundane negation slash, same logic as the struck marks in Prefixes/Suffixes). Falls back to ņ (n with cedilla) if the oblique stroke doesn't survive at small scale — fittingly, this mirrors real history: Latvian orthography used this exact letter until 1921, when it was replaced by cedilla-n for legibility.
+- no: n̊ (ring above marks the dropped o, same digraph-o mark as moon/book in Digraph Vowels — but riding the n instead of a vowel, since no puts the consonant first, reversed from an/in/on where the vowel leads and the mark stands for a trailing n)
 
 ## TODO
 - caret (digraph second-letter a) reuses the shape of the common-word circumflex (â = "at", ô = "to"); currently disambiguated only by standalone-word vs in-word context — confirm that's enough or add a distinguishing tweak.
