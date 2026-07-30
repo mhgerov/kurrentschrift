@@ -63,21 +63,20 @@ Prepositions:
 - in: ĩ
 - on: õ
 - at: @ (commercial at-sign — historically a scribal ligature of 'ad', a flourished a merging with the ascender of d; same logic as reusing Tironian et for and)
-- to: t
+- to: t˞ (t with a flourish — no real Unicode glyph for a decorative tail stroke, so approximated with U+02DE MODIFIER LETTER RHOTIC HOOK; in the actual handscript it's just a flourish off the tail of the t, not a phonetic hook)
 
 Pronouns:
-- it: TODO
+- it: ṫ (t with dot above, U+1E6B — the surviving consonant carries the digraph second-letter-i mark for the dropped vowel, same device as no: n̊ but for a leading vowel instead of a trailing one)
 
 Verb "to be":
 - am: m
 - are: ꝛ (rotunda r)
-- is: s
+- is: ṡ (s with dot above, U+1E61 — same device as it: ṫ, the surviving consonant carries the digraph second-letter-i mark for the dropped leading i)
 
 Negation:
 - not, 'nt: ꞥ (n with oblique stroke, U+A7A4/U+A7A5 — the stroke reads as the mundane negation slash, same logic as the struck marks in Prefixes/Suffixes). Falls back to ņ (n with cedilla) if the oblique stroke doesn't survive at small scale — fittingly, this mirrors real history: Latvian orthography used this exact letter until 1921, when it was replaced by cedilla-n for legibility.
 - no: n̊ (ring above marks the dropped o, same digraph-o mark as moon/book in Digraph Vowels — but riding the n instead of a vowel, since no puts the consonant first, reversed from an/in/on where the vowel leads and the mark stands for a trailing n)
 
 ## TODO
-- caret (digraph second-letter a) reuses the shape of the common-word circumflex (â = "at", ô = "to"); currently disambiguated only by standalone-word vs in-word context — confirm that's enough or add a distinguishing tweak.
 - base letter keeps its own marks under an added digraph diacritic; on a u base the inherent u/n distinguishing line stacks beneath the diacritic — check this is legible in practice and doesn't collide.
 - three-vowel sequences (beauty, queue, aqueous) aren't covered by the two-letter digraph rule — needs a convention.
