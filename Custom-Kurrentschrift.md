@@ -15,7 +15,7 @@ Constraints:
 - silent ending e: no single mark — what the -e does in English varies, so it's split by function:
     1. marking a long/tense preceding vowel (magic-e: case, ride, hope, make, note): a macron over that vowel — the classic long-vowel mark (Latin, Latvian, Old Norse editorial) — and the e is dropped. ex: case -> cās, ride -> rīd, hope -> hōp, make -> māk, note -> nōt, time -> tīm. It sits on a vowel, which keeps it distinct from the consonant-doubling macron in Morphemes below (that one only ever rides a consonant).
     2. softening a preceding c or g (face, notice, cage, range): the soft consonant takes a mark and the e is dropped. c has no descender, so it takes a cedilla (ç); g has a descender a cedilla would collide with, so it takes a hook above instead (◌̉, combining hook above, no precomposed form). Same shape logic — cedilla if the letter has no descender, hook above if it does — carries to anything else that ends up soft this way. ex: face -> faç, notice -> notiç, cage -> cag̉, range -> rang̉
-    3. propping up a word that would otherwise end in bare v or u (have, give, love, blue, true — English words don't end in v/u): a trailing umlaut on that final v/u, i.e. the umlaut's usual "a dropped e sat here" sense. ex: have -> hav̈, give -> giv̈, love -> lov̈. For -ue words this coincides with the Digraph Vowels umlaut anyway: blue -> blü, true -> trü.
+    3. propping up a word that would otherwise end in bare v or u (have, give, love, blue, true — English words don't end in v/u): the final v takes a cedilla (v̧), same shape logic as the soft-c cedilla in function 2 above. ex: have -> hav̧, give -> giv̧, love -> lov̧. For -ue words this coincides with the Digraph Vowels umlaut anyway: blue -> blü, true -> trü.
     4. voicing a final th (bath -> bathe, breath -> breathe, teeth -> teethe): nothing extra needed — the voicing split already writes voiced /ð/ as eth, and word-final eth vs thorn is itself the cue, so eth alone stands in for the dropped -e. ex: bath -> baþ vs bathe -> bað, teeth -> tëþ vs teethe -> tëð, breathe -> brêð
 - consonant doubling that only marks a short preceding vowel (rather than a real doubled sound): drop the doubled letter and put a macron over the remaining consonant. If that consonant has an ascender (which a macron above would collide with), underline it instead. ex: hopping -> hop̄ŋ, dinner -> din̄ꝛ, latter -> lat̲ꝛ, written -> writ̲en (t has an ascender, so underline)
     - the mark rides on the consonant now, not the vowel, so it no longer competes with the line over u: supper -> sup̄ꝛ vs super -> süpꝛ. Being on a consonant also keeps it distinct from the long-vowel macron of silent-e function 1, which only ever sits on a vowel.
@@ -32,9 +32,10 @@ A two-letter vowel digraph is written as its first letter carrying a diacritic t
 - second letter y -> grave ( ◌̀ ). ex: day -> dà, joy -> jò, key -> kè
 - Only a/e/i/o/u/y second letters are covered; a digraph is any of these following the first vowel. Second letters with their own diacritic collisions to be aware of:
     - the base letter keeps any mark it already carries; on a u base the inherent u/n distinguishing line simply sits under the added digraph diacritic.
+- If u is the first vowel, the distinguishing line is not necessary. Just add the second vowel diacritic.
 
 ## Letterforms
-- 'w' is replaced with wynn (Ƿ/ƿ) in all places. ex: with -> ƿið, written -> ƿrit̲en (composes with the other rules as usual)
+- 'w' is replaced with wynn (Ƿ/ƿ) in all places. ex: was -> ƿas, written -> ƿrit̲en (composes with the other rules as usual)
     - this collided with two existing Kurrent letterforms, so those had to be modified to stay distinct:
         - capital P (which wynn's capital form otherwise resembles) is now written like capital R minus the tail, so it's no longer confusable with capital wynn.
         - lowercase k had its curve start from the middle of the stroke instead of the top, since starting from the top made it read too much like lowercase wynn.
@@ -66,6 +67,7 @@ Prepositions:
 - on: õ
 - at: @ (commercial at-sign — historically a scribal ligature of 'ad', a flourished a merging with the ascender of d; same logic as reusing Tironian et for and)
 - to: t˞ (t with a flourish — no real Unicode glyph for a decorative tail stroke, so approximated with U+02DE MODIFIER LETTER RHOTIC HOOK; in the actual handscript it's just a flourish off the tail of the t, not a phonetic hook)
+- with: ƿþ (wynn + thorn — a whole-word abbreviation to the initial and final consonant, not the regular letter-substitution spelling ƿið)
 
 Pronouns:
 - it: ṫ (t with dot above, U+1E6B — the surviving consonant carries the digraph second-letter-i mark for the dropped vowel, same device as no: n̊ but for a leading vowel instead of a trailing one)
@@ -80,5 +82,4 @@ Negation:
 - no: n̊ (ring above marks the dropped o, same digraph-o mark as moon/book in Digraph Vowels — but riding the n instead of a vowel, since no puts the consonant first, reversed from an/in/on where the vowel leads and the mark stands for a trailing n)
 
 ## TODO
-- base letter keeps its own marks under an added digraph diacritic; on a u base the inherent u/n distinguishing line stacks beneath the diacritic — check this is legible in practice and doesn't collide.
 - three-vowel sequences (beauty, queue, aqueous) aren't covered by the two-letter digraph rule — needs a convention.
