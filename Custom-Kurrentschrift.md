@@ -27,6 +27,7 @@ A two-letter vowel digraph is written as its first letter carrying a diacritic t
 - second letter a -> circumflex/caret ( ◌̂ ). ex: boat -> bôt, bread -> brêd, aardvark -> ârdvark
 - second letter e -> umlaut ( ◌̈ ). ex: see -> së, toe -> tö, blue -> blü, field -> fïld
 - second letter i -> dot above ( ◌̇ ). ex: rain -> rȧn, boil -> bȯl, rein -> rėn
+    - exception: on a u base, dot above collides with a bare i — once u's distinguishing line is dropped (per the u-as-first-vowel rule below), u+dot reads identically to i followed by the next consonant's minims (ruin vs rim). Use acute ( ◌́ ) instead. ex: ruin -> rún, suit -> sút, juice -> júç (soft c also takes the silent-e cedilla)
 - second letter o -> ring above ( ◌̊ ). ex: moon -> mo̊n, book -> bo̊k
 - second letter u -> breve above ( ◌̆ ). ex: soup -> sŏp, feud -> fĕd, sauce -> săç (sauce's final c is soft, so it also takes the silent-e cedilla)
 - second letter y -> grave ( ◌̀ ). ex: day -> dà, joy -> jò, key -> kè
