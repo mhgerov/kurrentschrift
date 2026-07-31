@@ -8,9 +8,9 @@ Constraints:
 
 ## Morphemes
 - 'th' splits by voicing, following the modern Icelandic convention (Old English used þ and ð fairly interchangeably, but Icelandic today keeps them phonemically distinct the same way):
-    - voiceless /θ/ is replaced with þ (thorn). ex: think -> þink, three -> þree, math -> maþ, thin -> þin
-    - voiced /ð/ is replaced with ð (eth). ex: this -> ðis, father -> faðꝛ, though -> ðoȝ
-- 'gh' (the historical /x/ sound) is replaced with yogh (ȝ), except word-initially. ex: night -> niȝt, though -> ðoȝ, right -> riȝt, daughter -> dauȝtꝛ, burgh -> burȝ
+    - voiceless /θ/ is replaced with þ (thorn). ex: think -> þink, three -> þrë (ee digraph collapses per Digraph Vowels below), math -> maþ, thin -> þin
+    - voiced /ð/ is replaced with ð (eth). ex: this -> ðis, father -> faðꝛ, though -> ðŏȝ (ou digraph collapses too, same as gh below)
+- 'gh' (the historical /x/ sound) is replaced with yogh (ȝ), except word-initially. ex: night -> niȝt, though -> ðŏȝ, right -> riȝt, daughter -> dăȝtꝛ (au digraph collapses per Digraph Vowels below, same as sauce -> săç), burgh -> burȝ
     - word-initial "gh" (ghost, ghastly, aghast, gherkin, ghetto) is a separate, unrelated origin — a silent h inserted after g by early printers under Flemish/Dutch spelling influence, representing a plain /g/ sound, not the old fricative. It stays as gh. ex: ghost -> ghost, aghast -> aghast
 - silent ending e: no single mark — what the -e does in English varies, so it's split by function:
     1. marking a long/tense preceding vowel (magic-e: case, ride, hope, make, note): an underbar under that vowel, and the e is dropped. Kurrent already puts a breve-like line over u to distinguish it from n, so a mark riding above the vowel (a macron) would collide with that on words like dune; going below sidesteps it regardless of which vowel it's on. ex: case -> ca̲s, ride -> ri̲d, hope -> ho̲p, make -> ma̲k, note -> no̲t, time -> ti̲m, dune -> du̲n. It sits on a vowel, which keeps it distinct from the consonant-doubling underline in Morphemes below (that one only ever rides a consonant).
@@ -31,9 +31,8 @@ A two-letter vowel digraph is written as its first letter carrying a diacritic t
 - second letter o -> ring above ( ◌̊ ). ex: moon -> mo̊n, book -> bo̊k
 - second letter u -> breve above ( ◌̆ ). ex: soup -> sŏp, feud -> fĕd, sauce -> săç (sauce's final c is soft, so it also takes the silent-e cedilla)
 - second letter y -> grave ( ◌̀ ). ex: day -> dà, joy -> jò, key -> kè
-- Only a/e/i/o/u/y second letters are covered; a digraph is any of these following the first vowel. Second letters with their own diacritic collisions to be aware of:
-    - the base letter keeps any mark it already carries; on a u base the inherent u/n distinguishing line simply sits under the added digraph diacritic.
-- If u is the first vowel, the distinguishing line is not necessary. Just add the second vowel diacritic.
+- Only a/e/i/o/u/y second letters are covered; a digraph is any of these following the first vowel.
+- u is the only vowel with an inherent mark of its own (the u/n distinguishing line), so it's the only base letter with a possible collision: when u is the first vowel of a digraph, that line is dropped — the digraph diacritic alone is enough to mark it as a vowel, so keeping the line is unnecessary. ex: blue -> blü, not blü with an extra line underneath. (Exception: the ui digraph substitutes acute for dot rather than dropping anything, since dot itself is what collides — see above.)
 
 ## Letterforms
 - 'w' is replaced with wynn (Ƿ/ƿ) in all places. ex: was -> ƿas, written -> ƿrit̲en (composes with the other rules as usual)
@@ -43,10 +42,10 @@ A two-letter vowel digraph is written as its first letter carrying a diacritic t
 
 ## Prefixes
 - 'con-' is replaced with ꝯ (the medieval scribal abbreviation mark for con-/contra-, one of the oldest abbreviation signs, going back to Tironian notes). ex: contract -> ꝯtract, consider -> ꝯsider, control -> ꝯtrol
-    - 'com-' uses the same mark with a stroke across the stem (ꝯ̶ — no precomposed Unicode form, just the con-mark plus a combining stroke overlay), matching the same family of stroke-modified letters as ꝑ (per-) and ꝓ (pro-): the stem itself is what changes to signal the nasal shift from n to m, since com- is just the labial-assimilated spelling of the same underlying prefix before b/p/m. ex: combine -> ꝯ̶bine, complete -> ꝯ̶plete, common -> ꝯ̶mon
+    - 'com-' uses the same mark with a stroke across the stem (ꝯ̶ — no precomposed Unicode form, just the con-mark plus a combining stroke overlay), matching the same family of stroke-modified letters as ꝑ (per-) and ꝓ (pro-): the stem itself is what changes to signal the nasal shift from n to m, since com- is just the labial-assimilated spelling of the same underlying prefix before b/p/m. ex: combine -> ꝯ̶bi̲n, complete -> ꝯ̶ple̲t, common -> ꝯ̶mon (combine/complete also take the silent-e magic-e underbar, per Morphemes above)
 
 ## Suffixes
-- 'ing' suffix is replaced by ŋ. ex: running -> runŋ
+- 'ing' suffix is replaced by ŋ. ex: running -> run̲ŋ (doubled n marks the short vowel per the Morphemes consonant-doubling rule, same as hopping -> hop̲ŋ)
 - 'er' suffix is replaced by ꝛ. ex: meter -> metꝛ
 - 'or' suffix is replaced by ꝝ (r rotunda with a stroke across the stem — precomposed Unicode, U+A75D). Historically this was the medieval sign for -rum/-orum/-arum, so it's a real r-rotunda-family mark rather than an invented one; using it for -or keeps the same "stroke = marked variant within the family" logic as con-/com- and per-/pro- in Prefixes, with plain ꝛ as the more common default (-er) and struck ꝝ as the less common one (-or). ex: motor -> motꝝ, doctor -> doctꝝ
 - -ed suffix is just d. ex: printed -> printd
