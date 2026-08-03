@@ -152,6 +152,48 @@ Wynn collided with two existing Kurrent letterforms, so those had to be modified
 - capital P (which wynn's capital form otherwise resembles) is now written like capital R minus the tail, so it is no longer confusable with capital wynn.
 - lowercase k had its curve start from the middle of the stroke instead of the top, since starting from the top made it read too much like lowercase wynn.
 
+### 3.4 The c ligatures
+
+#### 3.4.1 What the tick is actually for
+
+Kurrent's c is a minim written "auf – ab – auf" with a small hook (Häkchen) at its tip, and the historical rule for dropping that hook is a closed list of three environments. Margarete Mücke's Kurrent writing course states it directly: c has no Häkchen before h or k, and therefore none in sch either.
+
+The reason the list is closed becomes clear four letters later in the same course, where i is taught as the letter c written *without* the Häkchen but with a dot on top. The script's own pedagogy defines i as tickless-c-plus-dot. The two are a designed minimal pair, and the tick is one half of it — not decoration that can be economised away.
+
+So Kurrent is not being careless when it deletes the tick; it is spending a distinction it can afford to spend, in exactly the positions where nothing competes. German has no ih or ik to collide with, so before h and k the tick carries no information and the ligature is free.
+
+#### 3.4.2 Why ch and ck survive the move to English
+
+English does have ih and ik, so the inherited rule has to be re-justified rather than assumed. It holds for two reasons, with one residual risk that it does not create.
+
+The h environment is *safer* here than in German. th, gh and wh have all been drained off by §1.1, the yogh rule and wynn, so a surviving h preceded by a minim is nearly always ch.
+
+The k environment survives because the competing reading is not a word. A tickless c is one minim and an i is one minim, so a misread costs the dot, and losing the dot turns i+c into n — which eats the vowel and produces a nonword: pick would have to read as pnk. The failure is loud rather than silent.
+
+What is left is a counting risk, not an identity one. pick and pink differ by exactly one minim, and both families are common in English. That is real but it is not new: it is the same minim arithmetic §2.1 already accepts when it rejects the i/u digraph over ruin vs rim. The u-stem cases (duck/dunk, much/munch) are better off still, because the u/n line is a span mark covering its two minims, so the reader counts only the remainder — one minim for c, two for n — instead of counting the whole run.
+
+#### 3.4.3 Why ct takes the opposite mechanic
+
+ct is not a Kurrent ligature. It appears in no Kurrent alphabet chart, and none of the thirteen Fraktur typographic ligatures (ch, ck, ff, fi, fl, ft, ll, ſch, ſi, ſſ, ſt, tt, tz) is ct. German barely needed one: c outside ch/ck/sch is essentially confined to loanwords, and pre-1901 Latinate spellings like Product and Direction were often set in Antiqua anyway.
+
+Extending the tick-dropping rule to ct is therefore an innovation, and it is the one place where it genuinely costs something. Before h and k the alternate reading of a bare minim is n, which fails loudly. Before t the alternate reading is i — a legal vowel, same stroke count, no anomaly to notice. The tick would be the sole carrier of the distinction, and dropping it makes act and a hypothetical ait the same marks on the page.
+
+The Digraph Vowels table does most of the rescuing: ai/ei/oi collapse onto the first vowel, so a bare minim following a vowel cannot be an i — it would have been written as a dot instead. tract and trait look like the perfect minimal pair until trait is written trȧt, with no minim at all. The residual hole is precisely the i/u exception of §2.1, the one place a bare i can still stand after a vowel, which puts -uct against -uit. No real pair seems to live there, but the seam exists. Note the dependency: a tickless ct would make §3 load-bearing on §2, so any future loosening of the digraph rule — §7.1's three-vowel convention, say — would silently reintroduce ambiguity in words that had been safe.
+
+None of that has to be paid, because the historically attested ct ligature works the other way round. It comes from the humanist and chancery tradition rather than the German one — Griffo cut sixty-five ligatures for the first italic in 1499, and st, ct and sp are the survivors that carried into old-style romans, where they persist as discretionary ligatures. In that form the arch springs *from the top of the c* and carries over to the t. The ligature is built out of the c's terminal, not by deleting it.
+
+That is what the rule adopts: the tick is extended into the join rather than dropped. Ligature economy and flow are kept, the c/i distinction is kept, and the borrowing comes from the same well as ꝛ, ꝝ, ꝷ, ꝸ and ꝯ rather than from a fourth tradition.
+
+The result is one letter with two ligature mechanics, each in its own lineage — subtractive before h and k, additive before t — which is more coherent than the alternative of one mechanic applied to an arbitrary list of following letters. cl, cr and cc take no ligature at all: neither tradition offers one, and the plain ticked c already joins them cleanly.
+
+#### 3.4.4 Why none of this needs a codepoint
+
+Unicode encodes no ct, ch or ck ligature and will not add one — its position is that ligatures are a rendering matter, not characters, and the Alphabetic Presentation Forms block (ﬀ ﬁ ﬂ ﬃ ﬄ ﬅ ﬆ) exists only to round-trip legacy encodings. Requests to add ct on the grounds that it cannot be decomposed have been declined on exactly that reasoning. Mildly annoying: st got in, purely by that legacy accident, and its companion ct did not.
+
+The Medieval Unicode Font Initiative fills the gap in the Private Use Area — U+EEC5 ct, U+EEC4 ck, U+F1BB ch — rendered by Junicode, Andron and Alphabetum. This document does not use them. PUA codepoints have no identity outside a conforming font, break search, sorting and normalisation, and would be the only characters here not backed by a real assignment.
+
+More to the point, there is nothing to encode. Unlike þ, ß or ꝯ, which replace a letter sequence and need a character to name the replacement, these ligatures change only how letters are drawn. c is still written c; nothing is dropped and nothing has to be reconstructed. They are allographs, and they belong in Letterforms alongside the wynn-driven k and P modifications of §3.3 — shape rules, not spelling rules. So ck stays two letters on the page, and the reconstruction constraint is satisfied trivially rather than by argument.
+
 ## 4. Prefixes
 
 ### 4.1 con-
@@ -205,3 +247,13 @@ beauty, queue, aqueous aren't covered by the two-letter digraph rule — this ne
 ### 7.2 The descender on y
 
 The doubling hook collides with the descender on y (syllable, gypsy). The long-vowel mark used to share this problem, and no longer does: its slash form (§1.3.1) crosses the descender instead of fighting it, so tɏp and stɏl are clean. The hook is still stuck, since it has to hang below and that is exactly where the descender goes. The descender fix used for soft g in §1.3.2 (move the mark above instead) doesn't transfer, since the space above the vowel is fully spoken for by the Digraph Vowels table — and the small-scale underbar fallback inherits the collision too.
+
+### 7.3 Ligatures at morpheme seams
+
+German practice is explicit and restrictive. The post-1901 Duden rule is that a ligature is set only when the letters belong together within the word stem: none between stem and ending, and none across the seam of a compound. Setters were expected to know which words were compounds, and a ligature was resolved into plain letters wherever a hyphenation fell between them.
+
+Nothing in this document says whether that carries over. English gives the rule less to bite on than German does, since a morpheme rarely ends in bare c — but the -c words that take an inserted k before an ending are exactly that case: panicked, trafficked, picnicking all put the c and the k on opposite sides of the seam. Under the German rule those would be written unligatured, with a full ticked c.
+
+This is a genuine fork rather than an oversight, because §1.4.7 goes deliberately the other way: the source of a doubling is never asked about, and assimilated prefixes and morpheme seams are written like any other double. That rule was chosen to keep reconstruction mechanical and to avoid making the writer parse morphology mid-word. Importing the German ligature rule would reintroduce exactly the analysis §1.4.7 was designed to avoid — the writer would have to know that panicked is panic + ed before knowing how to draw the c.
+
+The two positions can coexist, since one is about spelling and the other only about drawing: a ligature that fails to form costs nothing reconstructable, whereas a missing hook loses a letter. That asymmetry is probably the argument for allowing the seam rule here and not in §1.4 — but it is a decision, and it should be made rather than inherited.

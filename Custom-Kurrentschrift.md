@@ -49,6 +49,11 @@ A two-letter vowel digraph is written as its first letter carrying a diacritic t
 - 'ss' is written as ß (eszett). A letterform substitution in its own right, not the consonant-doubling rule — the vowel takes no hook (§3.2). ex: missing -> mißŋ, kiss -> kiß, glass -> glaß
 - 'w' is replaced with wynn (Ƿ/ƿ) in all places. ex: was -> ƿas, written -> ƿrįten
     - two Kurrent letterforms were modified to stay distinct from it (§3.3): capital P is now capital R minus the tail; lowercase k starts its curve from the middle of the stroke instead of the top.
+- 'c' is a minim with a small tick at its top. The tick is what separates c from i, which is the same minim with a dot instead — so it is never simply dropped for economy. Three environments (§3.4):
+    - before h and k, the tick is dropped and the c ligatures into the following letter — the inherited Kurrent form. ex: chair, ƿhich, q̆ick, black, church. Covers sch, where the c is before h anyway: schōl, schism
+    - before t, the tick is *extended* into an arch carrying over to the t; the c keeps its full form (§3.4.3). ex: act, fact, doctꝝ, picture, octobꝛ
+    - everywhere else, the plain ticked c. ex: cat, scar, cⱥs, ꝯtract, secret
+    - these are allographs, not spellings: c is written as c in all three, and nothing is dropped or reconstructed. ck in particular stays two letters (§3.4.4)
 
 ## Prefixes
 - 'con-' -> ꝯ (§4.1). ex: contract -> ꝯtract, consider -> ꝯsider, control -> ꝯtrol, connect -> ꝯnect (the mark covers the final n, so a seam double disappears into it)
@@ -94,3 +99,4 @@ Negation:
 ## TODO
 - three-vowel sequences (beauty, queue, aqueous) aren't covered by the two-letter digraph rule — needs a convention (§7.1).
 - the doubling hook collides with the descender on y (syllable, gypsy) (§7.2).
+- whether ligatures hold across a morpheme seam (panicked, trafficked, picnicking) is undecided — German practice says no, §1.4.7 says the seam is never asked about (§7.3).
