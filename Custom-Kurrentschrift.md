@@ -1,4 +1,4 @@
-# Custom Kurrentschrift
+﻿# Custom Kurrentschrift
 
 Guidelines for writing my custom handscript. Unless otherwise specified, stick to the normal kurrent handscript guidelines.
 
@@ -16,16 +16,17 @@ Constraints:
     - word-initial "gh" stays as gh (§1.2). ex: ghost -> ghost, aghast -> aghast
 - silent ending e: no single mark — split by function (§1.3):
     1. marking a long/tense preceding vowel (magic-e): a diagonal slash struck through that vowel, e dropped (§1.3.1). Precomposed: ⱥ ø ɏ. ex: case -> cⱥs, hope -> høp, make -> mⱥk, note -> nøt, type -> tɏp
-        - only a, o and y have the open bowl or descender a slash can cross. e, i and u take an underbar underneath instead. ex: ride -> ri̲d, time -> ti̲m, dune -> du̲n, complete -> ꝯ̶ple̲t
-        - the underbar is also the fallback for a/o/y at small scale, where a slash closes up into a blot. ex: ca̲s, ho̲p, ty̲p
+        - only a, o and y have the open bowl or descender a slash can cross. e and i take a macron above instead. Precomposed: ē ī. ex: ride -> rīd, time -> tīm, complete -> ꝯ̶plēt
+            - on i, the macron absorbs the letter's own dot rather than stacking above it — the same convention ordinary Latin diacritics already use (í, ī never carry a separate tittle under the accent).
+        - u takes the macron too, but by substitution rather than addition: its native line (§1.4.3) is a breve, and magic-e length simply swaps that breve for a macron in the same stroke instead of adding a second mark beside it. Precomposed: ū. ex: dune -> dūn, tribune -> tribūn, cube -> cūb, use -> ūs — against bare u for a genuinely short vowel: cub, tub, cut, us.
+        - the macron is also the fallback for a/o/y at small scale, where a slash closes up into a blot. ex: cās, hōp, tȳp
     2. softening a preceding c or g: both take a cedilla, e dropped — ç on the c, ģ on the g, where the cedilla rides above the bowl because the descender owns the space below (§1.3.2). ex: face -> fⱥç, cage -> cⱥģ, range -> rⱥnģ, notice -> notiç (short i — the e softens the c and nothing else, so there is no length mark)
         - where the e does two jobs at once, both are marked — the long-vowel mark on the vowel and the softening mark on the consonant (§1.3.5). The two marks never share a letter, so neither is crowded.
     3. propping up a word that would otherwise end in bare v or u: final v takes a cedilla (v̧), still required — it marks the dropped letter, not a change in sound (§1.3.3). ex: have -> hav̧, give -> giv̧, love -> lov̧. -ue words fall out of the digraph umlaut instead: blue -> blü, true -> trü
     4. voicing a final th: nothing extra — the eth/thorn split already carries it. ex: bath -> baþ vs bathe -> bað, teeth -> tēþ vs teethe -> tēð, breathe -> brêð
 - doubled consonants: drop the doubled letter and put a right hook — an ogonek (◌̨) — under the preceding vowel. Precomposed: ą ę į ǫ ų (y̨ must be composed). ex: letter -> lętꝛ, hopping -> hǫpŋ, dinner -> dįnꝛ, latter -> lątꝛ, written -> ƿrįten
-    - the hook means exactly one thing: a doubled letter follows (§1.4.1). Flat bar = long vowel, right hook = doubled letter.
-    - marks above and below stack freely, on different letters or the same one. ex: balloon -> bąlōn, roommate -> rǭmⱥt, coolly -> cǭly, bookkeeper -> bǭkēpꝛ (ǭ = U+01ED, o with both ogonek and macron)
-    - u keeps its inherent line above and takes the hook below as well. ex: supper -> sųpꝛ vs super -> supꝛ
+    - the hook means exactly one thing: a doubled letter follows (§1.4.1). It has the below zone entirely to itself now — magic-e length lives above throughout: the primary slash on a/o/y, a macron everywhere else, including u, where the macron simply replaces the native breve rather than adding to it (§1.3.1).
+    - marks above and below stack freely, on different letters or the same one. balloon has no stacking, since the ll-hook and the oo-titlo land on different letters: balloon -> bąlon (titlo on the o — §2.4). Where a doubled vowel is immediately followed by a doubled consonant, both marks land on the one letter doing double duty — ogonek below, titlo above — as two independent combining marks on a bare base, not by stacking the titlo onto the precomposed ogonek letter, which renders unpredictably in most fonts since it isn't a tested combination. ex: roommate -> rǫmⱥt, coolly -> cǫly, bookkeeper -> bǫkepꝛ — each marked o also carries a titlo above the ogonek shown here (the precomposed form only shows the below-mark; add the titlo by hand when writing), and bookkeeper's e in keeper carries a lone titlo for its own ee.
     - the source of the doubling is never asked about — assimilated prefixes and morpheme seams are written like any other double. ex: apply -> ąply, occur -> ǫcur, illegal -> įlegal, accord -> ącord, correct -> cǫrect, suffer -> sųfꝛ, unnatural -> ųnatural, misspell -> mißpęl
     - no hook where another glyph already swallowed the double (§1.4.8). ex: commit -> ꝯ̶mit, common -> ꝯ̶mon, connect -> ꝯnect, misspell -> mißpęl (hooks only its ll)
 
@@ -38,8 +39,9 @@ A two-letter vowel digraph is written as its first letter carrying a diacritic t
 - second letter u -> breve above ( ◌̆ ). ex: soup -> sŏp, feud -> fĕd, sauce -> săç (sauce's final c is soft, so it also takes the silent-e cedilla)
 - second letter y -> grave ( ◌̀ ). ex: day -> dà, joy -> jò, key -> kè
 - Only a/e/i/o/u/y second letters are covered; a digraph is any of these following the first vowel — except the i/u pair, below.
-- a doubled identical vowel takes an overbar (◌̄) instead of the letter's own mapped mark (§2.4). Precomposed: ā ē ō. ex: boom -> bōm, seem -> sēm, see -> sē, moon -> mōn, book -> bōk, three -> þrē, aardvark -> ārdvark
-    - ii and uu are excluded: they never spell a single vowel sound in English (ski-ing, ra-di-i, vac-u-um are syllable breaks), and ū would vanish into the u/n line anyway (§2.4).
+- a doubled identical vowel takes a titlo (◌҃, U+0483, borrowed from Cyrillic) instead of the letter's own mapped mark (§2.4). No precomposed Latin forms exist — these are combining sequences: a/e/o + titlo. ex: boom -> bo҃m, seem -> se҃m, see -> se҃, moon -> mo҃n, book -> bo҃k, three -> þre҃, aardvark -> a҃rdvark
+    - ii and uu are excluded: they never spell a single vowel sound in English (ski-ing, ra-di-i, vac-u-um are syllable breaks), and uu is doubly excluded since u has no free above-zone stroke to begin with (§1.3.1, §2.4.1).
+    - the titlo is a distinct shape from the macron that marks magic-e length (§1.3.1) — the two occupy the same above zone on e, told apart by shape only, the same way the cedilla and ogonek share the below zone told apart by hook direction (§1.4.4).
 - the i/u pair doesn't collapse in either direction (§2.1): ui and iu are both written out in full. ex: suit -> suit, fruit -> fruit, juice -> juiç, build -> build, guide -> gui̲d, medium -> medium, radius -> radius, triumph -> triumph
 - when u is the first vowel of a digraph, its u/n line is dropped (§2.3). ex: blue -> blü, with no extra line underneath. Covers ue/ua/uo/uy.
 
@@ -98,5 +100,4 @@ Negation:
 
 ## TODO
 - three-vowel sequences (beauty, queue, aqueous) aren't covered by the two-letter digraph rule — needs a convention (§7.1).
-- the doubling hook collides with the descender on y (syllable, gypsy) (§7.2).
-- whether ligatures hold across a morpheme seam (panicked, trafficked, picnicking) is undecided — German practice says no, §1.4.7 says the seam is never asked about (§7.3).
+- abbreviation for 'from'

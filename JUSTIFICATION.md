@@ -16,19 +16,23 @@ Word-initial "gh" (ghost, ghastly, aghast, gherkin, ghetto) is a separate, unrel
 
 There is no single mark because what the -e does in English varies, so the rule is split by function.
 
-#### 1.3.1 Function 1 — long vowel slash
+#### 1.3.1 Function 1 — long vowel slash and macron
 
-The space above the vowel was never available: Kurrent puts a breve-like line over u to distinguish it from n, so a macron would collide with that on words like dune, and the Digraph Vowels table has since claimed the whole zone above anyway.
+Three positions are in play for marking length: above the vowel (shared with the Digraph Vowels table and the titlo of §2.4), below the vowel (shared with the doubling hook of §1.4), and through the letter (open, until this rule claims it).
 
-Below the vowel works but is crowded. The doubling hook of §1.4 hangs there too, so the pair had to be told apart by shape alone — flat bar = long vowel, right hook = doubled letter follows — two small marks in one place, distinguished in a fast hand only by curvature.
+Striking through the letter is why the slash is the primary form for a/o/y: above is digraph-or-doubling, below is consonant-doubling, through is length — three zones, three jobs, nothing sharing a zone with a different meaning for these letters. The shape is the Nordic ø, where a slash through the bowl is a routine, fast, legible stroke rather than an exotic one. All three have precomposed forms — ⱥ (U+2C65), ø (U+00F8), ɏ (U+024F) — so nothing here depends on a combining overlay.
 
-Striking through the letter is a third position that nothing else uses, which is why it is the primary form: above is digraph, below is doubling, through is length. The shape is the Nordic ø, where a slash through the bowl is a routine, fast, legible stroke rather than an exotic one. All three have precomposed forms — ⱥ (U+2C65), ø (U+00F8), ɏ (U+024F) — so nothing here depends on a combining overlay.
+The slash needs something to cross. a and o have an open bowl and y has a descender, so the stroke has room to be a stroke; e and i in a minim-based hand are too cramped, and a slash through them lands as a smudge or, worse, reads as part of the letter. e and i instead move above and take a macron — a shape distinct from every digraph mark in §2 and from the titlo of §2.4, so ē and ī stay unambiguous even though the zone is crowded. On i, the macron absorbs the letter's own identity dot rather than stacking on top of it, the same way ordinary Latin diacritics already work: í, ì, ī never carry a separate tittle under the accent.
 
-The slash needs something to cross. a and o have an open bowl and y has a descender, so the stroke has room to be a stroke; e, i and u in a minim-based hand are too cramped, and a slash through them lands as a smudge or, worse, reads as part of the letter. Those three keep the underbar. The same limit applies at small scale to a/o/y, where the bowl closes up — the underbar is the fallback there, so the two forms are one rule with a legibility escape hatch, not two competing marks.
+u still doesn't get a second mark, but it does get the macron — by substitution rather than addition. Kurrent puts a breve-like line over u to distinguish it from n; that line occupies the exact stroke a macron would need if the two had to coexist, which is why simply adding a macron alongside the breve was never workable (the same collision that excludes u from the doubled-vowel titlo in §2.4.1). But magic-e length never needs to coexist with the breve — a given u is either short (breve, as always) or long (macron, replacing the breve outright), never both at once. So the fix is a shape swap in the one stroke u already spends on identifying itself, not a second stroke: dune -> dūn, tribune -> tribūn, cube -> cūb, use -> ūs, against bare cub, tub, cut, us for the genuinely short vowel.
+
+This keeps u's line doing exactly one job at a time — u/n identity, plus length whenever the shape is a macron instead of a breve — the same way the doubling hook stays legible against the cedilla by direction rather than position (§1.4.4). It also leaves u no more exceptional than e and i in the end: all three mark magic-e length with a macron; u is only unusual in already having something in that stroke to swap out.
+
+The same limit that used to push a/o/y onto the underbar at small scale now pushes them onto the macron instead: the bowl closes up, the slash blots, and the macron is the fallback there, so the two forms are still one rule with a legibility escape hatch, not two competing marks.
 
 høp (hope) vs hǫpŋ (hopping): the contrast that used to depend on bar-vs-hook now separates by position as well. Bare hop takes no mark at all, since there is neither length to mark nor a doubled letter to reconstruct.
 
-An incidental payoff: the slash clears half of §7.2. The long-vowel underbar collided with the descender on y (ty̲p, sty̲l); a slash across that descender does not, so tɏp and stɏl are clean. The doubling hook on y is still open.
+An incidental payoff: the slash clears half of §7.2, and the macron clears the rest of what the underbar used to touch. The long-vowel mark collided with the descender on y (ty̲p, sty̲l) only while it hung below; the slash's primary form crosses the descender instead of fighting it, and the macron fallback sits above the descender entirely, so tɏp, stɏl and the small-scale tȳp are all clean. The doubling hook on y is still open — that collision was never about vowel length.
 
 #### 1.3.2 Function 2 — soft c and g
 
@@ -70,7 +74,7 @@ The hook means exactly one thing: a doubled letter follows. Not "this vowel is s
 
 In the ordinary case the vowel is what the doubling is describing — nobody holds the p in hopping longer than the p in hoping. The doubled letter is a diacritic about the vowel in front of it, so putting the mark on the consonant would keep it one letter away from what it refers to.
 
-Below the vowel is also where §1.3.1 falls back to its long mark — on e/i/u, and on any vowel at small scale — so the two still have to contrast by shape there: flat bar = long vowel, right hook = doubled letter. Where the length mark takes its primary slash form the question doesn't arise, since the two marks are no longer in the same place at all. They aren't two ends of one axis — one is phonetic and one is orthographic — but the pairing is worth the mnemonic, since a hook does imply a short vowel nearly every time.
+Below the vowel used to be shared with the magic-e length mark on e/i/u, but that's no longer true anywhere: length is marked above throughout now — the primary slash on a/o/y, a macron everywhere else, including u, where the macron simply replaces the native breve rather than adding to it (§1.3.1). The hook has the below zone to itself, with nothing left to contrast it against by shape.
 
 #### 1.4.3 Why it hangs below
 
@@ -86,7 +90,7 @@ The ogonek is itself a medieval scribal mark — the nasal hook of Latin manuscr
 
 #### 1.4.6 Stacking with marks above
 
-Marks above and marks below stack freely, on different letters or on the same one: balloon -> bąlōn (ll hooks the a, oo collapses to an overbar on the o), roommate -> rǭmⱥt, coolly -> cǭly, bookkeeper -> bǭkēpꝛ (here the overbar and the hook share one o — the mark above says oo, the hook below says the next letter doubles).
+Marks above and marks below stack freely, on different letters or on the same one. balloon has no stacking, since the ll-hook and the oo-titlo land on different letters: balloon -> bąlon (titlo on the o — §2.4). Where a doubled vowel is immediately followed by a doubled consonant, both marks land on the one letter doing double duty — ogonek below, titlo above — as two independent combining marks on a bare base rather than stacking the titlo onto the precomposed ogonek letter, which renders unpredictably in most fonts since it isn't a tested combination: roommate -> rǫmⱥt, coolly -> cǫly, bookkeeper -> bǫkepꝛ — each marked o carries a titlo above the ogonek shown here as well (the precomposed letter only shows the below-mark), and bookkeeper's e in keeper carries a lone titlo for its own ee.
 
 This is where defining the hook orthographically pays off: the vowel in these is long, so a mark that meant "short" would be lying, but one that means "a double follows" is simply true.
 
@@ -117,19 +121,21 @@ ui and iu are the two rarest vowel pairs in English, and iu is never a real digr
 
 u is the only vowel with an inherent mark of its own (the u/n distinguishing line), so it is the only base letter with a possible collision. When u is the first vowel of a digraph the line is dropped: the digraph diacritic alone is enough to mark it as a vowel, so keeping the line is unnecessary. This covers ue/ua/uo/uy; ui is excluded per §2.1, so a lineless u never meets a dot.
 
-### 2.4 Why identical pairs take an overbar
+### 2.4 Why identical pairs take a titlo
 
-ee and oo are the two most common vowel digraphs in English, and they are the case where the second-letter table has the least to say: the mapped mark would stand for the same letter it is already sitting on (o carrying a ring that means "o"), which is a tautology rather than a reconstruction. The overbar says the one thing that actually needs saying — the letter beneath, twice — so the mark carries information instead of restating the base letter.
+ee and oo are the two most common vowel digraphs in English, and they are the case where the second-letter table has the least to say: the mapped mark would stand for the same letter it is already sitting on (o carrying a ring that means "o"), which is a tautology rather than a reconstruction. A mark meaning "the letter beneath, twice" says the one thing that actually needs saying, so it carries information instead of restating the base letter.
 
-It also has to be a mark *above*. The hook below already means "a doubled letter follows" (§1.4.1), and using it here would be ambiguous in exactly the wrong place: bǫk could reconstruct as book or as bock, since nothing in the hook says whether the double is the vowel or the consonant after it. Splitting by position keeps each mark unambiguous — above the vowel: this vowel doubles; below it: the next letter doubles. That is why they stack cleanly on one letter (bǭkēpꝛ) rather than competing.
+It also has to be a mark *above*. The hook below already means "a doubled letter follows" (§1.4.1), and using it here would be ambiguous in exactly the wrong place: bǫk could reconstruct as book or as bock, since nothing in the hook says whether the double is the vowel or the consonant after it. Splitting by position keeps each mark unambiguous — above the vowel: this vowel doubles; below it: the next letter doubles. That is why they stack cleanly on one letter (§1.4.6 has the roommate/coolly/bookkeeper examples) rather than competing.
 
-The shape is the medieval titulus, a bar over a letter marking an omitted following letter (nasals, most commonly). As with the ogonek (§1.4.5) and ß (§3.2), only the shape is imported, not the historical usage: here the omitted letter is a copy of the one under the bar.
+Above isn't free of company, though: §1.3.1 also puts a macron above e and i for magic-e length, in the same zone. The two need to be different shapes to stay reconstructible — reusing one glyph for both would make it impossible to tell, on sight, whether an *e* marked above spells a doubled *ee* or a single long *e* with a dropped final -e. So the doubling mark is a titlo (◌҃, U+0483), not a macron: shape carries the distinction, the same way the cedilla and ogonek share the below zone and are told apart by hook direction rather than position (§1.4.4).
+
+The titlo is borrowed from Cyrillic, where it is the standard abbreviation mark over a contracted word — not a random alternative to a macron, but a conceptual sibling of one: Church Slavonic титло (titlo) and Latin *titulus* both descend from the same Greek τίτλος, the general medieval idea of "a mark over a letter meaning something's been left out." The Western macron/overbar tradition is one branch of that idea; Cyrillic titlo is another, and the two diverge enough in actual shape to serve as two distinct, legible marks here even though they're etymological kin. Only the shape is imported, not the Cyrillic abbreviation function itself: here it marks a doubled vowel, not an omitted word. No precomposed Latin letter carries a titlo, so a/e/o + titlo are combining sequences rather than single characters — a real cost against the precomposed forms used everywhere else in this section, and one worth naming plainly rather than glossing over.
 
 #### 2.4.1 Why ii and uu are excluded
 
 Neither is ever a genuine digraph in English — skiing, radii, vacuum, continuum all break across syllables (ski-ing, ra-di-i, vac-u-um), so there is no single vowel sound being spelled longhand and nothing for a collapse to buy. This is the same reasoning that keeps the cost of the i/u exclusion small (§2.2).
 
-uu is doubly ruled out: an overbar on u is the u/n line, so ū is just a u. That collision is the same one that pushed the long-vowel mark below the baseline in §1.3.1, and it is what confines the overbar to a/e/o here — the three letters that have no inherent mark above to lose it in.
+uu is excluded on distributional grounds regardless: the digraph never spells a genuine single vowel sound in English, so there's nothing to buy even if a stroke were free for it. (§1.3.1 shows u's own breve-stroke collision can be worked around by substitution — swapping the breve for a macron — but that workaround is moot here, since there's no real uu word to apply it to.)
 
 ## 3. Letterforms
 
@@ -204,7 +210,7 @@ More to the point, there is nothing to encode. Unlike þ, ß or ꝯ, which repla
 
 com- uses the same mark with a stroke across the stem (ꝯ̶ — no precomposed Unicode form, just the con-mark plus a combining stroke overlay), matching the same family of stroke-modified letters as ꝑ (per-) and ꝓ (pro-). The stem itself is what changes, to signal the nasal shift from n to m: com- is just the labial-assimilated spelling of the same underlying prefix before b/p/m.
 
-combine and complete also take the magic-e underbar (§1.3.1); common and commit show the seam absorption — com + mon, com + mit — with the doubled m needing no mark of its own.
+combine and complete also take the magic-e macron (§1.3.1); common and commit show the seam absorption — com + mon, com + mit — with the doubled m needing no mark of its own.
 
 ## 5. Suffixes
 
@@ -246,7 +252,7 @@ beauty, queue, aqueous aren't covered by the two-letter digraph rule — this ne
 
 ### 7.2 The descender on y
 
-The doubling hook collides with the descender on y (syllable, gypsy). The long-vowel mark used to share this problem, and no longer does: its slash form (§1.3.1) crosses the descender instead of fighting it, so tɏp and stɏl are clean. The hook is still stuck, since it has to hang below and that is exactly where the descender goes. The descender fix used for soft g in §1.3.2 (move the mark above instead) doesn't transfer, since the space above the vowel is fully spoken for by the Digraph Vowels table — and the small-scale underbar fallback inherits the collision too.
+The doubling hook collides with the descender on y (syllable, gypsy). The long-vowel mark used to share this problem, and no longer does at all: its primary slash form (§1.3.1) crosses the descender instead of fighting it, so tɏp and stɏl are clean, and its small-scale fallback moved above the baseline along with the rest of that rule, so tȳp clears the descender too. The doubling hook is still stuck, since it has to hang below and that is exactly where the descender goes. The descender fix used for soft g in §1.3.2 (move the mark above instead) doesn't transfer here, since the space above the vowel is spoken for by the Digraph Vowels table, the titlo of §2.4, and now the magic-e macron as well.
 
 ### 7.3 Ligatures at morpheme seams
 
